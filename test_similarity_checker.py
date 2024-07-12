@@ -26,3 +26,4 @@ class TestSimilarityChecker(unittest.TestCase):
         self.assertEqual(sc.get_score2(), 40)
         sc.set_strings("AA", "AAE")
         self.assertEqual(sc.get_score2(), 20)
+        self.assertEqual(sc.get_score2(), 30)
